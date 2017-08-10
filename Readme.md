@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Серафима Сойнова](https://up.htmlacademy.ru/htmlcss/18/user/200045).
-* Наставник: `Неизвестно`.
+* Наставник: [Viktoriia Kovalenko](https://htmlacademy.ru/profile/id504929).
 
 ---
 
