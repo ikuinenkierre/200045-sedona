@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Отели | Добро пожаловать в Седону!</title>
+	</head>
+	<body>
+		<header class="main-header" id="main-header">
+			<nav class="main-navigation">
+				<a class="main-header-logo">
+					<img src="http://via.placeholder.com/140x70" width="140" height="70" alt="Логотип сайта-приглашения в город Седона">
+				</a>
+				<ul class="site-navigation">
+					<li><a class="site-navigation-link" href="info.html">Информация</a></li>
+					<li><a class="site-navigation-link" href="media.html">Фото и видео</a></li>
+					<li><a class="site-navigation-link" href="map.html">Карта штата</a></li>
+					<li><a class="site-navigation-current-link">Гостиницы</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="container hotels-booking">
+			<h1 class="visually-hidden page-title">Выбор гостиницы в городе Седона</h1>
+			<section class="filters">
+				<h2 class="visually-hidden">Фильтры гостиниц</h2>
+				<form class="hotels-filter" method="get" action="https://echo.htmlacademy.ru">
+				<fieldset>
+					<legend>Инфраструктура:</legend>
+					<ul>
+						<li class="filter-option">
+							<input type="text" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="pool" name="pool" checked>
+							<label for="pool">Бассейн</label>
+						</li>
+						<li class="filter-option">
+							<input type="text" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="parking" name="parking">
+							<label for="parking">Парковка</label>
+						</li>
+						<li class="filter-option">
+							<input type="text" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="wifi" name="wifi">
+							<label for="wifi">Wi-Fi</label>
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Тип жилья:</legend>
+					<ul>
+						<li class="filter-option">
+							<input type="text" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="hotel" name="hotel" checked>
+							<label for="hotel">Гостиница</label>
+						</li>
+						<li class="filter-option">
+							<input type="text" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="motel" name="motel" checked>
+							<label for="motel">Мотель</label>
+						</li>
+						<li class="filter-option">
+							<input type="text" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="wifi" name="wifi" checked>
+							<label for="wifi">Апартаменты</label>
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Стоимость в сутки (Р):</legend>
+					<p>
+						<input type="range" class="filter-input filter-input-range" value="0" min="0" max="4000" step="100">
+						<input type="range" class="filter-input filter-input-range" value="3000" min="0" max="4000" step="100">
+					</p>
+					<p>
+						<button class="button filter-button">Показать</button>
+					</p>
+				</fieldset>
+			</form>
+			</section>
+			<section class="hotels-sorting">
+				<span class="hotels-found">Найдено: 3</span>
+				<h2 class="sorting-title">Сортировка:</h2>
+				<ul class="sorting-list">
+					<li class="sorting-item current-sorting-item">По цене</li>
+					<li class="sorting-item current-sorting-item">По типу</li>
+					<li class="sorting-item current-sorting-item">По рейтингу</li>
+				</ul>
+			</section>
+			<section class="hotels-list">
+				<h2 class="visually-hidden">Список найденных отелей</h2>
+				<table>
+					<tr>
+						<td class="hotel-image">
+							<img src="http://via.placeholder.com/140x90" width="140" height="90" alt="Фото отеля Amara Resort & Spa">
+						</td>
+						<td class="hotel-description">
+							<h3 class="hotel-name">Amara Resort & Spa</h3>
+							<p>
+								<span class="hotel-type">Гостиница</span>
+								<span class="hotel-price">От 4000 р.</span>
+								<a class="read-more-link" href="#">Подробнее</a>
+								<a class="booking-link" href="#">Забронировать</a>
+							</p>
+						</td>
+						<td class="hotel-rating">
+							<img src="http://via.placeholder.com/100x20" width="100" height="20" alt="Рейтинг отеля Amara Resort & Spa">
+							<span>Рейтинг: 8,5</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="hotel-image">
+							<img src="http://via.placeholder.com/140x90" width="140" height="90" alt="Фото отеля Desert Quail Inn">
+						</td>
+						<td class="hotel-description">
+							<h3 class="hotel-name">Desert Quail Inn</h3>
+							<p>
+								<span class="hotel-type">Мотель</span>
+								<span class="hotel-price">От 3000 р.</span>
+								<a class="read-more-link" href="#">Подробнее</a>
+								<a class="booking-link" href="#">Забронировать</a>
+							</p>
+						</td>
+						<td class="hotel-rating">
+							<img src="http://via.placeholder.com/100x20" width="100" height="20" alt="Рейтинг отеля Desert Quail Inn">
+							<span>Рейтинг: 8,9</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="hotel-image">
+							<img src="http://via.placeholder.com/140x90" width="140" height="90" alt="Фото отеля Villas At Poco Diablo">
+						</td>
+						<td class="hotel-description">
+							<h3 class="hotel-name">Villas At Poco Diablo</h3>
+							<p>
+								<span class="hotel-type">Апартаменты</span>
+								<span class="hotel-price">От 2000 р.</span>
+								<a class="read-more-link" href="#">Подробнее</a>
+								<a class="booking-link" href="#">Забронировать</a>
+							</p>
+						</td>
+						<td class="hotel-rating">
+							<img src="http://via.placeholder.com/100x20" width="100" height="20" alt="Рейтинг отеля Villas At Poco Diablo">
+							<span>Рейтинг: 9,2</span>
+						</td>
+					</tr>
+				</table>
+			</section>
+		</main>
+		<footer class="main-footer">
+			<p class="footer-hashtag">
+				<a href="#main-header">#visitsedona</a>
+			</p>
+			<ul class="footer-social">
+				<li><a href="#" class="social-button">Twitter</a></li>
+				<li><a href="#" class="social-button">Facebook</a></li>
+				<li><a href="#" class="social-button">Youtube</a></li>
+			</ul>
+			<p class="footer-copyright">
+				<span>Website by</span>
+				<a href="https://htmlacademy.ru">
+					<img src="http://via.placeholder.com/130x50" width="130" height="50" alt="HTML Academy">
+				</a>
+			</p>
+		</footer>
+	</body>
+</html>
