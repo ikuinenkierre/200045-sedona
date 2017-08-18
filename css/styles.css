@@ -1,0 +1,16 @@
+body {
+  font: 14px 'PT Sans', sans-serif;
+  line-height: 26px;
+  color: #000;
+}
+h2 {
+  font-weight: bold;
+}
+.advantages-title h2 {
+  font-size: 21px;
+}
+.real-town-advantage h2 {
+  font-size: 19px;
+  line-height: 21px;
+  color: #fff;
+}
