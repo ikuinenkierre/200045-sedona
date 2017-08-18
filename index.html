@@ -21,7 +21,9 @@
          </nav>
       </header>
       <main class="container">
+         <h1 class="visually-hidden">Приглашение в Седону</h1>
          <section class="greeting">
+            <h2 class="visually-hidden">Добро пожаловать в Седону</h2>
             <img src="http://via.placeholder.com/520x450" width="520" height="450" alt="Добро пожаловать в Седону">
          </section>
          <section class="advantages-title">
@@ -34,6 +36,7 @@
             <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
          </section>
          <section class="real-town-advantage-image">
+            <h2 class="visually-hidden">Вид города Седоны</h2>
             <img src="http://via.placeholder.com/800x260" width="800" height="260" alt="Вид города Седоны">
          </section>
          <section class="hotels-advantage">
@@ -49,6 +52,7 @@
             <p>Не только китайского, но и местного производства!</p>
          </section>
          <section class="devil-bridge-advantage-image">
+            <h2 class="visually-hidden">Вид на мост дьявола</h2>
             <img src="http://via.placeholder.com/800x260" width="800" height="260" alt="Вид на мост дьявола">
          </section>
          <section class="devil-bridge-advantage">
@@ -74,40 +78,33 @@
          <section class="hotels-booking-title">
             <h2>Заинтересовались?</h2>
             <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            </p>
-         </section>
-         <section class="hotels-booking-button">
-            <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
             <input type="button" name="search-hotels" value="Поиск гостиниц в Седоне">
          </section>
          <section class="hotels-booking-form">
+            <h2 class="visually-hidden">Форма поиска гостиницы В Седоне</h2>
             <form class="hotels-form" method="get" action="https://echo.htmlacademy.ru">
                <label>
-               Дата заезда:
-               <input class="date-input" type="text" name="arrival-date" placeholder="24 апреля 2017">
-               <a class="open-calendar" href="#">
-               <img src="http://via.placeholder.com/30x30" width="30" height="30" alt="Открыть календарь">
-               </a>
+                 <span>Дата заезда:</span>
+                 <input class="date-input" type="text" name="arrival-date" placeholder="24 апреля 2017">
+                 <a class="open-calendar" href="#">
+                   <img src="http://via.placeholder.com/30x30" width="30" height="30" alt="Открыть календарь">
+                 </a>
                </label>
                <label>
-               Дата выезда:
-               <input class="date-input" type="text" name="departure-date" placeholder="4 июля 2017">
-               <a class="open-calendar" href="#">
-               <img src="http://via.placeholder.com/30x30" width="30" height="30" alt="Открыть календарь">
-               </a>
+                 <span>Дата выезда:</span>
+                 <input class="date-input" type="text" name="departure-date" placeholder="4 июля 2017">
+                 <a class="open-calendar" href="#">
+                   <img src="http://via.placeholder.com/30x30" width="30" height="30" alt="Открыть календарь">
+                 </a>
                </label>
-               <label>
-               Взрослые:
+               <span>Взрослые:</span>
                <input class="adults-number" type="text" name="adults-number">
                <input type="button" name="minus-button" value="-">
-               <input type="button" name="plus-button" vaslue="+">
-               </label>
-               <label>
-               Дети:
+               <input type="button" name="plus-button" value="+">
+               <span>Дети:</span>
                <input class="children-number" type="text" name="children-number">
                <input type="button" name="minus-button" value="-">
-               <input type="button" name="plus-button" vaslue="+">
-               </label>
+               <input type="button" name="plus-button" value="+">
                <button class="button" type="submit">Найти</button>
             </form>
          </section>
