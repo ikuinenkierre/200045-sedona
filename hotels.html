@@ -73,9 +73,9 @@
                </fieldset>
                <fieldset>
                   <legend>Стоимость в сутки (Р):</legend>
-                  <input type="range" class="filter-input filter-input-range" value="0" min="0" max="4000" step="100">
-                  <input type="range" class="filter-input filter-input-range" value="3000" min="0" max="4000" step="100">
-                  <button class="button filter-button">Показать</button>
+                  <button class="price-range-left" type="button"></button>
+                  <button class="price-range-right" type="button"></button>
+                  <div class="scroll-field"></div>
                </fieldset>
             </form>
          </section>
@@ -93,6 +93,10 @@
                   <a href="#">По рейтингу</a>
                 </li>
             </ul>
+            <label class="visually-hidden" for="up-button"></label>
+            <button type="button" id="up-button"></button>
+            <label class="visually-hidden" for="down-button"></label>
+            <button type="button" id="down-button"></button>
          </section>
          <section class="hotels-list">
             <h2 class="visually-hidden">Список найденных отелей</h2>
