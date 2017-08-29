@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-color: #ffffff;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+a.site-navigation-current-link,
+a.site-navigation-current-link:hover,
+a.site-navigation-current-link:focus,
+a.site-navigation-current-link:active {
+  color: #766357;
+}
+
+.greeting {
+  background-image: url("../img/header-image.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.advantages-title h2 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.advantages h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.advanages p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.advantage-with-image {
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.hotels-advantage {
+  background-image: url(../img/icon-1.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.food-advantage {
+  background-image: url(../img/icon-3.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.souvenirs-advantage {
+  background-image: url(../img/icon-2.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.other-advantage {
+  color: #000000;
+
+  background-color: #eeeeee;
+}
+
+.hotels-booking-title h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.hotels-booking-title input {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #766357;
+  border: none;
+}
+
+.hotels-booking-title input:hover,
+.hotels-booking-title input:focus {
+  background-color: #604e43;
+}
+
+.hotels-booking-title input:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #503e33;
+}
+
+.hotels-booking-form {
+  line-height: 26px;
+  font-weight: 700;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.hotels-booking-form input[type="text"] {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.hotels-booking-form input[type="text"]:hover {
+  background-color: #ebebeb;
+}
+
+.hotels-booking-form input[type="text"]:focus {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+  outline: none;
+}
+
+.quantity-button {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #a9a9a9;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.quantity-button:hover,
+.quantity-button:focus {
+  color: #000000;
+}
+
+.quantity-button:active {
+  color: #81b3d2;
+}
+
+.hotels-booking-form button[type="submit"] {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #81b3d2;
+  border: none;
+}
+
+.hotels-booking-form button[type="submit"]:hover,
+.hotels-booking-form button[type="submit"]:focus {
+  background-color: #669ec0;
+}
+
+.hotels-booking-form button[type="submit"]:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #5496bd;
+}
+
+.main-footer {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.main-footer .footer-hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.footer-social {
+  list-style: none;
+}
+
+.footer-social a {
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.footer-social a:hover,
+.footer-social a:focus {
+  background-color: #669ec0;
+}
+
+.footer-social a:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #5496bd;
+}
+
+
+
+
+
+
