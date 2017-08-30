@@ -7,7 +7,6 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
-  text-align: center;
   text-transform: uppercase;
 
   background-color: #f2f2f2;
@@ -33,6 +32,7 @@ a {
 
 .site-navigation a {
   color: #000000;
+  text-align: center;
 }
 
 .site-navigation a:hover,
@@ -58,6 +58,10 @@ a.site-navigation-current-link:active {
   background-size: cover;
 }
 
+.advantages-title {
+  text-align: center;
+}
+
 .advantages-title h2 {
   font-size: 21px;
   line-height: 26px;
@@ -67,12 +71,14 @@ a.site-navigation-current-link:active {
 .advantages h2 {
   font-size: 21px;
   line-height: 21px;
+  text-align: center;
   font-weight: 700;
 }
 
-.advanages p {
+.advantages p {
   font-size: 14px;
   line-height: 21px;
+  text-align: center;
 }
 
 .advantage-with-image {
@@ -103,6 +109,10 @@ a.site-navigation-current-link:active {
   color: #000000;
 
   background-color: #eeeeee;
+}
+
+.hotels-booking-title {
+  text-align: center;
 }
 
 .hotels-booking-title h2 {
@@ -210,8 +220,163 @@ a.site-navigation-current-link:active {
   background-color: #5496bd;
 }
 
-.main-footer {
-  background-color: rgba(255, 255, 255, 0.9);
+.map {
+  background-image: url("../img/map.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.filters {
+  color: #ffffff;
+
+  background-color: #81b3d2;
+  background-image: url("../img/hotels-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.filters fieldset {
+  border: none;
+}
+
+.filters legend {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.filters ul {
+  list-style: none;
+}
+
+.filter-input:disabled + label {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.filters .submit {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+.filters .submit:hover,
+.filters .submit:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.hotels-sorting h2 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.hotels-sorting .sorting-title {
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.hotels-sorting ul {
+  list-style: none;
+}
+
+.hotels-sorting a {
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.hotels-sorting a:hover,
+.hotels-sorting a:focus {
+  color: #81b3d2;
+}
+
+.hotels-sorting a:active {
+  color: #000000;
+  border-bottom: none;
+}
+
+.hotels-sorting .current-sorting-item a {
+  color: #81b3d2;
+  border-bottom: none;
+}
+
+.hotels-sorting button {
+  background-color: transparent;
+  border: none;
+}
+
+.hotels-list ul {
+  list-style: none;
+}
+.hotels-list a.hotel-name {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.hotels-list a.hotel-name:hover,
+.hotels-list a.hotel-name:focus {
+  color: #81b3d2;
+}
+
+.hotels-list a.hotel-name:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.hotels-list a.read-more-link {
+  color: #ffffff;
+  font-weight: 700;
+
+  background-color: #81b3d2;
+}
+
+.hotels-list a.read-more-link:hover,
+.hotels-list a.read-more-link:focus {
+  background-color: #669ec0;
+}
+
+.hotels-list a.read-more-link:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #5496bd;
+}
+
+.hotels-list a.booking-link {
+  color: #ffffff;
+  font-weight: 700;
+
+  background-color: #766357;
+}
+
+.hotels-list a.booking-link:hover,
+.hotels-list a.booking-link:focus {
+  background-color: #604e43;
+}
+
+.hotels-list a.booking-link:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #503e33;
+}
+
+.hotels-list .rating {
+  background-color: #f2f2f2;
 }
 
 .main-footer .footer-hashtag {
@@ -227,7 +392,6 @@ a.site-navigation-current-link:active {
 
 .footer-social a {
   color: #ffffff;
-
   background-color: #81b3d2;
 }
 
@@ -240,6 +404,10 @@ a.site-navigation-current-link:active {
   color: rgba(255, 255, 255, 0.3);
 
   background-color: #5496bd;
+}
+
+.index-footer {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 
