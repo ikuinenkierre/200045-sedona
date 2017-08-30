@@ -52,10 +52,12 @@ a.site-navigation-current-link:active {
 }
 
 .greeting {
+  min-height: 510px;
+  text-align: center;
+
   background-image: url("../img/header-image.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .advantages-title {
@@ -87,19 +89,22 @@ a.site-navigation-current-link:active {
   background-color: #81b3d2;
 }
 
-.hotels-advantage {
+.hotels-advantage:before {
+  content: " ";
   background-image: url(../img/icon-1.svg);
   background-position: top center;
   background-repeat: no-repeat;
 }
 
-.food-advantage {
+.food-advantage:before {
+  content: " ";
   background-image: url(../img/icon-3.svg);
   background-position: top center;
   background-repeat: no-repeat;
 }
 
-.souvenirs-advantage {
+.souvenirs-advantage:before {
+  content: " ";
   background-image: url(../img/icon-2.svg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -310,9 +315,13 @@ a.site-navigation-current-link:active {
   border-bottom: none;
 }
 
-.hotels-sorting .current-sorting-item a {
+.current-sorting-item a {
   color: #81b3d2;
   border-bottom: none;
+}
+
+.current-sorting-item a:active {
+  color: #81b3d2;
 }
 
 .hotels-sorting button {
