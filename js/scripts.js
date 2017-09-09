@@ -6,9 +6,13 @@ var departure = document.querySelector("[name=departure-date]");
 var adults = document.querySelector("[name=adults-number]");
 var children = document.querySelector("[name=children-number]");
 
+window.onload = function () {
+    form.classList.add("hotels-booking-wrapper-hide");
+};
+
 link.addEventListener("click", function (evt) {
     evt.preventDefault();
-    form.classList.toggle("hotels-booking-wrapper-show");
+    form.classList.toggle("hotels-booking-wrapper-hide");
 
     if (adultsStorage) {
         adults.value = adultsStorage;

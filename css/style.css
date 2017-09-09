@@ -496,7 +496,7 @@ input[type="radio"].visually-hidden {
 }
 
 .hotels-booking-wrapper {
-  display: none;
+  display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: absolute;
@@ -513,8 +513,8 @@ input[type="radio"].visually-hidden {
           box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
 }
 
-.hotels-booking-wrapper-show {
-  display: block;
+.hotels-booking-wrapper-hide {
+  display: none;
 
   -webkit-animation: bounce 0.6s;
 
