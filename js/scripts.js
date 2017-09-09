@@ -12,16 +12,10 @@ link.addEventListener("click", function (evt) {
 
     if (adultsStorage) {
         adults.value = adultsStorage;
-        arrival.focus();
     }
 
     if (childrenStorage) {
         children.value = childrenStorage;
-        arrival.focus();
-    }
-
-    else {
-        arrival.focus();
     }
 });
 
