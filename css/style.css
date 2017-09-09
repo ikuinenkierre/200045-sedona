@@ -30,6 +30,7 @@ input[type="button"] {
   display: inline-block;
   padding: 6px 34px;
   margin-left: 84px;
+  vertical-align: center;
 
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
@@ -442,7 +443,7 @@ input[type="radio"].visually-hidden {
 .date label {
   display: block;
   padding: 6px 0;
-  margin-right: 14px;
+  margin-right: 12px;
 
   letter-spacing: 0.3px;
 }
@@ -709,6 +710,7 @@ input[type="text"]:focus + .open-calendar {
 
 .price-controls label {
   display: inline-block;
+  vertical-align: center;
 
   font-size: 14px;
   line-height: 32px;
