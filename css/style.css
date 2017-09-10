@@ -242,12 +242,15 @@ input[type="radio"].visually-hidden {
 .advantage-text {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 34%;
-  padding: 48px 60px 34px 60px;
-
+  width: 33.3%;
+  padding: 48px 60px 34px;
   color: #ffffff;
 
   background-color: #81b3d2;
+}
+
+.devil-bridge-advantage .advantage-text {
+  padding: 47px 45px 34px;
 }
 
 .advantage-with-image h2 {
@@ -262,9 +265,9 @@ input[type="radio"].visually-hidden {
 
 .advantage-image {
   position: absolute;
-  top: 50%;
+  top: 123px;
   right: 0;
-  width: 66%;
+  width: 66.6%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -292,7 +295,7 @@ input[type="radio"].visually-hidden {
 
           box-sizing: border-box;
   width: 33.3%;
-  padding: 160px 70px 82px;
+  padding: 160px 57px 82px;
 }
 
 .minor-advantage h2 {
@@ -539,6 +542,20 @@ input[type="radio"].visually-hidden {
   border: none;
 }
 
+.hotels-booking-form input[type="text"]:hover {
+  background-color: #ebebeb;
+}
+
+.hotels-booking-form input[type="text"]:focus {
+  padding-left: 13px;
+
+  line-height: 26px;
+
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+  outline: none;
+}
+
 .hotels-booking-form .date {
   position: relative;
   display: -webkit-box;
@@ -567,20 +584,6 @@ input[type="radio"].visually-hidden {
   width: 348px;
 
   text-align: left;
-}
-
-.date input:hover {
-  background-color: #ebebeb;
-}
-
-.date input:focus {
-  padding-left: 13px;
-
-  line-height: 26px;
-
-  background-color: #ffffff;
-  border: 2px solid #e5e5e5;
-  outline: none;
 }
 
 .open-calendar {
@@ -926,7 +929,6 @@ input[type="text"]:focus + .open-calendar {
 }
 
 .range-toggle:hover {
-  top: -10px;
   width: 21px;
   height: 24px;
 
@@ -934,7 +936,7 @@ input[type="text"]:focus + .open-calendar {
 }
 
 .range-toggle-min {
-  left: 0;
+  left: -1px;
 }
 
 .range-toggle-max {
