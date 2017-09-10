@@ -680,6 +680,8 @@ input[type="text"]:focus + .open-calendar {
 .quantity-button:hover,
 .quantity-button:focus {
   color: #000000;
+
+  outline: none;
 }
 
 .quantity-button:active {
@@ -929,10 +931,7 @@ input[type="text"]:focus + .open-calendar {
 }
 
 .range-toggle:hover {
-  width: 21px;
-  height: 24px;
-
-  background-image: url("../img/filter-button-hover.svg");
+  transform: scale(1.09);
 }
 
 .range-toggle-min {
