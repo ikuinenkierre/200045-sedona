@@ -424,14 +424,13 @@ input[type="radio"].visually-hidden {
 .open-form-button {
   position: relative;
 
-  padding: 30px 138px 30px 137px;
+  padding: 30px 140px 30px;
 
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   text-align: center;
-  letter-spacing: 0.9px;
   color: #ffffff;
   text-transform: uppercase;
 
